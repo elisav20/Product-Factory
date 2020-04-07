@@ -22,15 +22,15 @@ import Header from "./Header";
 
 export default {
   components: {
-    Header,
+    Header
   },
   data: () => ({
     title: "Product Design Course",
     subtitle: "Product Factory",
     text: `Learn how design thinking, user research, business vision and
             marketing, and finally designing and creating real digital products
-            for real users.`,
-  }),
+            for real users.`
+  })
 };
 </script>
 
@@ -39,6 +39,7 @@ export default {
   width: 100%;
   height: 75%;
   min-height: 780px;
+  margin-bottom: 290px;
   background-color: #111;
   position: relative;
 

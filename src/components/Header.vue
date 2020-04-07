@@ -25,9 +25,9 @@ export default {
       "Masters",
       "Classes",
       "Course Experience",
-      "About Us",
-    ],
-  }),
+      "About Us"
+    ]
+  })
 };
 </script>
 

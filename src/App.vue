@@ -2,17 +2,20 @@
   <div id="app">
     <Intro />
     <AboutUs />
+    <Sessions />
   </div>
 </template>
 
 <script>
 import Intro from "./components/Intro";
 import AboutUs from "./components/AboutUs";
+import Sessions from "./components/Sessions";
 export default {
   name: "App",
   components: {
     Intro,
-    AboutUs
+    AboutUs,
+    Sessions
   }
 };
 </script>
@@ -21,7 +24,6 @@ export default {
 body {
   margin: 0;
   padding: 0;
-  background: #fafafa;
 }
 
 *,

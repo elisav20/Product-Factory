@@ -20,7 +20,7 @@
             </div>
             <div class="card__content">
               <div class="card__img">
-                <img :src="getPic(value.user_id)" :alt="user_id" />
+                <img :src="getPic(value.user_id)" :alt="value.user_id" />
                 <img
                   style="padding-left: 20px"
                   v-if="value.user2_id"

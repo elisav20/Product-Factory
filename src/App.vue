@@ -3,6 +3,7 @@
     <Intro />
     <AboutUs />
     <Sessions />
+    <Masters />
   </div>
 </template>
 
@@ -10,18 +11,20 @@
 import Intro from "./components/Intro";
 import AboutUs from "./components/AboutUs";
 import Sessions from "./components/Sessions";
+import Masters from "./components/Masters";
 export default {
   name: "App",
   components: {
     Intro,
     AboutUs,
-    Sessions
+    Sessions,
+    Masters
   }
 };
 </script>
 
 <style lang="scss">
-body {
+* {
   margin: 0;
   padding: 0;
 }

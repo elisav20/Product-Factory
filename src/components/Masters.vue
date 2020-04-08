@@ -5,17 +5,24 @@
       <div class="master__inner">
         <div class="master__item" v-for="(value, key) in masters" :key="key">
           <div class="master__info">
-            <img class="master__img" :src="getPic(value.id)" :alt="value.name" />
+            <img
+              class="master__img"
+              :src="getPic(value.id)"
+              :alt="value.name"
+            />
             <div class="master__content">
               <div class="master__social">
                 <a class="master__social-link" href="#">
-                  <img src="../assets/images/twitter.png" alt="twitter">
+                  <img src="../assets/images/twitter.png" alt="twitter" />
                 </a>
                 <a class="master__social-link" href="#">
-                  <img src="../assets/images/facebook.png" alt="facebook">
+                  <img src="../assets/images/facebook.png" alt="facebook" />
                 </a>
                 <a class="master__social-link" href="#">
-                  <img src="../assets/images/instagram-brands.png" alt="instagram">
+                  <img
+                    src="../assets/images/instagram-brands.png"
+                    alt="instagram"
+                  />
                 </a>
               </div>
             </div>
@@ -37,60 +44,60 @@ export default {
       1: {
         id: 1,
         name: "Shervin Mashayekh",
-        position: "Additive Product Manager",
+        position: "Additive Product Manager"
       },
       2: {
         id: 2,
         name: "Kianoosh Keyghobadi",
-        position: "Product Manager at Digikala",
+        position: "Product Manager at Digikala"
       },
       3: {
         id: 3,
         name: "Hossein Vahdani",
-        position: "Content marketing specialist",
+        position: "Content marketing specialist"
       },
       4: {
         id: 4,
         name: "Ali Babaei",
-        position: "Product design consultant",
+        position: "Product design consultant"
       },
       5: {
         id: 5,
         name: "Kiarash Amalivand",
-        position: "Head of product at Ap",
+        position: "Head of product at Ap"
       },
       6: {
         id: 6,
         name: "Hesam Keramati",
-        position: "Product designer at Bazaar",
+        position: "Product designer at Bazaar"
       },
       7: {
         id: 7,
         name: "Hassan Hemati",
-        position: "Product designer at Alibaba",
+        position: "Product designer at Alibaba"
       },
       8: {
         id: 8,
         name: "Sheragim Moradi",
-        position: "Marketing manager",
+        position: "Marketing manager"
       },
       9: {
         id: 2,
         name: "Hadi Ebnodin",
-        position: "Service designer",
+        position: "Service designer"
       },
       10: {
         id: 10,
         name: "Moslem Ebrahimi",
-        position: "Typeface designer",
-      },
-    },
+        position: "Typeface designer"
+      }
+    }
   }),
   methods: {
     getPic(id) {
       return require(`../assets/images/masters/${id}.jpg`);
-    },
-  },
+    }
+  }
 };
 </script>
 
@@ -145,7 +152,7 @@ export default {
     left: 43px;
     z-index: 5;
     opacity: 0;
-    transition: all .2s linear;
+    transition: all 0.2s linear;
   }
 
   &__social {

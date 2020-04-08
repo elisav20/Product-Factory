@@ -45,17 +45,14 @@ export default {
 .about-us {
   width: 100%;
   position: relative;
+  margin-top: 450px;
 
   &__inner {
     width: 100%;
     max-width: 1430px;
     margin: 0 auto;
     padding: 40px 120px 75px;
-    position: absolute;
-    top: 170px;
-    left: 0;
-    right: 0;
-    z-index: 10;
+    position: relative;
     background: #fff;
     border-radius: 25px;
     box-shadow: 0px 30px 45px 0px rgba(0, 0, 0, 0.13);
